@@ -262,8 +262,8 @@ h1, #menu-content {
         drinkDiv.appendChild(infoDiv);
 
         if (drink.img) {
-          const imgDiv = document.createElement('div');
-          imgDiv.className = 'drink-image';
+  const imgDiv = document.createElement('div');
+  imgDiv.className = 'drink-image';
           imgDiv.onclick = () => openModal(drink.img);
           imgDiv.innerHTML = `<img src="${drink.img}" alt="${drink.name}" loading="lazy">`;
           drinkDiv.appendChild(imgDiv);
